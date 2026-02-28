@@ -1,0 +1,97 @@
+/* Configurações */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3; /* Cor de fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Espaço no topo antes da imagem */
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Imagem Centralizada */
+.hero-image img {
+    width: 348px; 
+    height: 223px; 
+    display: block;
+    margin: 0 auto;
+}
+
+/* Título Principal */
+h1 {
+    font-family: 'Inter', sans-serif; 
+    font-size: 49px; 
+    line-height: 56px; 
+    font-weight: 400;
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* Palavras em Destaque */
+.highlight {
+    font-weight: 700;
+    color: #0075FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+/* Parágrafos */
+p {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px; 
+    line-height: 28px; 
+    color: #7D7987; 
+    text-align: center;
+    max-width: 562px; 
+    margin: 16px auto;
+}
+
+.link-text {
+    color: #0075FF;
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ECEFF2; 
+    width: 100%; 
+    max-width: 562px; 
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0075FF;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade Básica */
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    p { font-size: 1rem; }
+}
